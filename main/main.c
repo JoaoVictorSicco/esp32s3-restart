@@ -33,14 +33,5 @@ void app_main(void)
     vTaskDelay(pdMS_TO_TICKS(1000));
     esp_sleep_enable_timer_wakeup(5000);
     esp_deep_sleep_start();
-
-
-
     }
-    
-
-
-
-
-
 }
